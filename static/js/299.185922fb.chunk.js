@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkofiryaron_com=self.webpackChunkofiryaron_com||[]).push([[299],{2299:function(e,o,c){e.exports=c.p+"static/media/tampermonkey-functions.8a7c1f24946d27d25ebb.md"}}]);

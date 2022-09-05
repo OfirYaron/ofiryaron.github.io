@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkofiryaron_com=self.webpackChunkofiryaron_com||[]).push([[831],{1831:function(c,e,a){c.exports=a.p+"static/media/mac-installations.4c10c36b8366e4e0ecfb.md"}}]);
