@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkofiryaron_com=self.webpackChunkofiryaron_com||[]).push([[961],{8961:function(e,o,a){e.exports=a.p+"static/media/terraform-modules.1f44deea223f74fa5c52.md"}}]);
