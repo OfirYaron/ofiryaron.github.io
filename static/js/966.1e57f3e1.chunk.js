@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkofiryaron_com=self.webpackChunkofiryaron_com||[]).push([[966],{5966:function(a,s,c){a.exports=c.p+"static/media/aliases-and-commands.062f0ef48048920ca042.md"}}]);
