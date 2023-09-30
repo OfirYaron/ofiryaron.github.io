@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkofiryaron_com=self.webpackChunkofiryaron_com||[]).push([[191],{8191:function(o,e,n){o.exports=n.p+"static/media/routing-pods-through-vpn.ef64dd6d8903a3281b78.md"}}]);
