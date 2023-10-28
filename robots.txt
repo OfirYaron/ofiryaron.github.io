@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
-# TDB: Investigate additional requirements for this file
+# TDB: Investigate additional requirements for this file (Use ChatGPT)
 User-agent: *
 Disallow:
