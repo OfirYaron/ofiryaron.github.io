@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkofiryaron_com=self.webpackChunkofiryaron_com||[]).push([[236],{3236:function(e,c,o){e.exports=o.p+"static/media/docker-lifecycle.1198d5b01d4502804e69.md"}}]);
