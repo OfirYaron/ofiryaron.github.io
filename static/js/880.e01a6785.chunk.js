@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkofiryaron_com=self.webpackChunkofiryaron_com||[]).push([[880],{5880:function(c,e,a){c.exports=a.p+"static/media/react-gh-pages.789cad8c23b2490f6de5.md"}}]);
