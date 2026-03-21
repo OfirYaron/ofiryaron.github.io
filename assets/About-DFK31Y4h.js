@@ -1,4 +1,4 @@
-import{c as e,n as t,t as n}from"./prop-types-7HJk9wVd.js";import{r,t as i}from"./jsx-runtime-Z8njWNrF.js";import"./index.module-WGMEjcbr.js";import{t as a}from"./index-C7jV3HlI.js";import{t as o}from"./index.modern-CSHsWC19.js";var s=e(n());t();var c=`# **OFIR YARON**
+import{c as e,n as t,t as n}from"./prop-types-7HJk9wVd.js";import{r,t as i}from"./jsx-runtime-Z8njWNrF.js";import"./index.module-WGMEjcbr.js";import{t as a}from"./index-cO4uijT5.js";import{t as o}from"./index.modern-CSHsWC19.js";var s=e(n());t();var c=`# **OFIR YARON**
 **Cloud Solution Architect | Former CTO | AI Workflow Orchestrator** 
 [ofir@ofiryaron.com](mailto:ofir@ofiryaron.com) | [GitHub](https://github.com/OfirYaron) | [LinkedIn](https://www.linkedin.com/in/ofiryaron)
 
