@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkofiryaron_com=self.webpackChunkofiryaron_com||[]).push([[543],{5543:(a,c,s)=>{a.exports=s.p+"static/media/bash-commands.9b8736a765666c55ac0c.md"}}]);
