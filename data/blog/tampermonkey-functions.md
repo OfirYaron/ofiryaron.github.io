@@ -21,16 +21,16 @@ To install [Tampermonkey](https://www.tampermonkey.net/)
 since Tampermonkey script use Vanila javascript, over time I've found my self recreating these basic utility function that can come handy:
 </p>
 
-<code language="javascript">
+```javascript
 const mouseEvent = new Event('dblclick', {
   'view': window,
   'bubbles': true,
   'cancelable': true
 });
-</code>
+```
   
 Changing an input value that also handles React states:
-<code language='javascript'>
+```javascript
   function dispatchValueChange(input, newValue){
     let lastValue = input.value;
     input.value = newValue;
@@ -46,21 +46,21 @@ Changing an input value that also handles React states:
     const element = document.getElementById(elementId);
     dispatchValueChange(element, newValue);
   }
-</code>
+```
 <br>
 An additional method (based on **dispatchValueChange**) to change the value by a css selector
-<code language='javascript'>
+```javascript
 function dispatchValueChangeBySelector(elementSelector, newValue){
   const elements = document.querySelectorAll(elementSelector);
   if (elements.length) {
       dispatchValueChange(elements[0], newValue);
   }
 }
-</code>
+```
 <br>
 
 Wait functions to have a proper wait when changing rendered page:
-<code language='javascript'>
+```javascript
   function waitForElementById(elementId) {
     return new Promise((resolve) => {
       const checkExist = setInterval(function () {
@@ -81,15 +81,15 @@ Wait functions to have a proper wait when changing rendered page:
     }, 300);
     });
   }
-</code>
+```
 
 <br>
 Click an element by a css selector
-<code language='javascript'>
+```javascript
 function clickBySelector(elementSelector) {
   const elements = document.querySelectorAll(elementSelector);
   if (elements.length) {
     elements[0].click();
   }
 }
-</code>
+```

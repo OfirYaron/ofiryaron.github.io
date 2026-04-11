@@ -44,38 +44,38 @@ By mastering commonly used Bash commands and exploring more advanced ones, you c
 ## Advanced Commands
 
 - **find**: Searches for files and directories that match a specific set of criteria. For example, to find all files with a .txt extension in the current directory and its subdirectories, you can use:
-<code language='bash'>
+```bash
 find . -name "**.txt"
-</code>
+```
 
 - **grep**: Searches for a specific pattern in a file. To search for the string "hello" in all .txt files in the current directory, you can use:
-<code language='bash'>
+```bash
 grep "hello" **.txt
-</code>
+```
 
 - **sed**: Stream editor for filtering and transforming text. To replace all occurrences of the string "foo" with "bar" in a file, you can use:
-<code language='bash'>
+```bash
 sed 's/foo/bar/g' myfile.txt
-</code>
+```
 
 - **awk**: Powerful text-processing tool for manipulating structured data. To print the second column of a CSV file, you can use:
-<code language='bash'>
+```bash
 awk -F ',' '{print $2}' myfile.csv
-</code>
+```
 
 ### Pipes
 
 Pipes (|) are used to redirect the output of one command as input to another command. This allows you to chain together commands to perform more complex operations. Here are a few examples:
 
 To find all files with a .txt extension and count the number of lines in each file, you can use:
-<code language='bash'>
+```bash
 find . -name "*.txt" | xargs wc -l
-</code>
+```
 The find command searches for all .txt files, and the output is piped to xargs, which passes each file as an argument to the wc -l command to count the number of lines.
 To search for a specific string in all .txt files in the current directory and display the matching lines, you can use:
-<code language='bash'>
+```bash
 grep "search string" *.txt | awk '{print "File: " $2 " - " $0}'
-</code>
+```
 The grep command searches for the specified string in all .txt files, and the output is piped to awk, which formats the output to display the matching lines with the corresponding file name.
 Pipes are a powerful tool for combining and manipulating data in the command line, and mastering them can greatly improve your productivity as a Bash user.
 

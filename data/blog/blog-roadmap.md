@@ -25,12 +25,12 @@ the markdown files will be loaded and styled, added with a Copy-to-Clipboard but
 
 1. Add the menu item "Blog"
 
-  <code language='json'>
+  ```json
     {
       label: 'Blog',
       path: '/blog',
     }
-  </code>
+  ```
 
 2. Add the page component
 3. Add basic styling
@@ -59,7 +59,7 @@ const metadataRegex =
 ```
 <br>
 Afterwards we can use the function to extend the markdown and return a more elaborated object holding the markdown, word count and additional metadata fields:
-<code language="javascript">
+```javascript
 const collectMetatada = (markdown) => {
   const count = markdown.split(/\s+/)
     .map((s) => s.replace(/\W/g, ''))
@@ -68,7 +68,7 @@ const collectMetatada = (markdown) => {
     .reduce((acc, match) => ({ ...acc, [match[1]]: match[4] }), {});
   return { ...metadata, wordcount: count, markdown };
 };
-</code>
+```
 
 2. Place inside Article Component
 3. Style the Article frame
