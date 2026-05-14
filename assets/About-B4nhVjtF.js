@@ -1,4 +1,4 @@
-import{h as e,r as t,t as n,u as r}from"./jsx-runtime-DrMt8XWg.js";import{r as i}from"./index.module-DkHJI2DT.js";import{t as a}from"./index-BAjUdj0b.js";import{n as o,r as s,t as c}from"./lib-CX-ZY9r5.js";var l=e(i());r();var u=`# **OFIR YARON**
+import{h as e,r as t,t as n,u as r}from"./jsx-runtime-DrMt8XWg.js";import{r as i}from"./index.module-DkHJI2DT.js";import{t as a}from"./index-KjJ6qmyL.js";import{n as o,r as s,t as c}from"./lib-CX-ZY9r5.js";var l=e(i());r();var u=`# **OFIR YARON**
 **Cloud Solution Architect | Former CTO | AI Workflow Orchestrator** 
 [ofir@ofiryaron.com](mailto:ofir@ofiryaron.com) | [GitHub](https://github.com/OfirYaron) | [LinkedIn](https://www.linkedin.com/in/ofiryaron)
 
@@ -75,15 +75,19 @@ _Led the technological vision for a leading InsureTech company, managing a divis
 
 * worked as web developer and a Team Leader for a year, implemented backends using .net webforms(C#), MS SQL Server, working closely with customers and Project Manager, was incharge of architecture design, Implementation and customer integration. Projects included logging and back office systems, alert and process managing systems.
 
+# **Certifications**
+
+* <img src="/images/aws-certified-ai-practitioner.png" alt="AWS Certified AI Practitioner" width="100"/> **AWS Certified AI Practitioner**
+
 # **Technology Stack**
 ## **AWS Resources**
-- EKS (+fargate), API GW, Lambda, RDS, Redshift, Elasticache, SQS, SNS, EC2, LB, CloudWatch, IAM, All VPC Sub assets (SG, subnet, etc), Codebuild, and many more.
+- Bedrock, EKS (+fargate), API GW, Lambda, RDS, Redshift, Elasticache, SQS, SNS, EC2, LB, CloudWatch, IAM, All VPC Sub assets (SG, subnet, etc), Codebuild, and many more.
 ## **GCP Resources**
 - Compute Engine, Instances, Cloud Storage, Cloud Functions, Cloud Firestore, Cloud SQL, Cloud IAM, VPC, Subnets, Firewall and many more.
 ## **Languages/Libraries**
-- Javascript (Nodejs), React, Terraform, SQL, HTML, CSS, Json, XML, Apex, Java, Bash, C#, C++, VB.
+- Python, Javascript (Nodejs), React, Terraform, SQL, HTML, CSS, Json, XML, Apex, Java, Bash, C#, C++, VB.
 ## **Tools/Frameworks**
-- K8s, Helm, Webstorm, VSCode, AWS CLI, kubectl, Slack, Jira, SF, Rapid7, Rollbar, Kibana.
+- Keycloak SSO, IDP, K8s, Helm, Webstorm, VSCode, AWS CLI, kubectl, Slack, Jira, SF, Rapid7, Rollbar, Kibana.
 
 # **Language**
 
