@@ -1,4 +1,4 @@
-import{d as e,t}from"./jsx-runtime-DAa8HyWv.js";import"./lib-C2RtdjKS.js";import{t as n}from"./MarkdownPage-Cgcd59_7.js";e();var r=`*Last updated: July 26, 2026*
+import{d as e,t}from"./jsx-runtime-DAa8HyWv.js";import"./lib-C2RtdjKS.js";import{t as n}from"./MarkdownPage-BPui4rV2.js";e();var r=`*Last updated: July 26, 2026*
 
 ## 1. What Data We Collect
 
