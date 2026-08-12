@@ -19,9 +19,22 @@
     -->
     <link rel="manifest" href="/manifest.json" />
     <title>Ofir Yaron - Cloud Solution Architect and Software Engineer</title>
-    <script type="module" crossorigin src="/assets/index-BhlxEDXo.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-DAa8HyWv.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-RPQWZ36h.css">
+    <script>
+      // Stamp the document locale before the bundle loads, so /he never paints
+      // an English left-to-right frame first. React (via Helmet) sets the same
+      // attributes once it mounts; this only moves the decision earlier, and
+      // resolves to the existing lang="en" / dir="ltr" for every English route
+      // (OYS-383).
+      (function () {
+        var isHebrew = /^\/he(\/|$)/.test(window.location.pathname);
+        document.documentElement.lang = isHebrew ? 'he' : 'en';
+        document.documentElement.dir = isHebrew ? 'rtl' : 'ltr';
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-DwzQmj1a.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-Bxl4I8Me.js">
+    <link rel="modulepreload" crossorigin href="/assets/prop-types-D024K784.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-Dzx3FNO9.css">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
