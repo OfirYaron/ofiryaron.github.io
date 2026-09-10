@@ -1,0 +1,1 @@
+import{b as e,h as t}from"./jsx-runtime-Bxl4I8Me.js";var n=e(t()),r=()=>{(0,n.useEffect)(()=>(document.body.classList.add(`full-bleed-page`),()=>document.body.classList.remove(`full-bleed-page`)),[])};export{r as t};
