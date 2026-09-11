@@ -1,4 +1,4 @@
-import{h as e,t}from"./jsx-runtime-Bxl4I8Me.js";import"./lib-Bh1uRD5L.js";import{t as n}from"./MarkdownPage-BMvouo3Z.js";e();var r=`*Last updated: July 26, 2026*
+import{h as e,t}from"./jsx-runtime-Bxl4I8Me.js";import"./lib-Bh1uRD5L.js";import{t as n}from"./MarkdownPage-JR5NV2iz.js";e();var r=`*Last updated: July 26, 2026*
 
 ## 1. Acceptance of Terms
 
