@@ -30,10 +30,10 @@
         document.documentElement.dir = isHebrew ? 'rtl' : 'ltr';
       })();
     </script>
-    <script type="module" crossorigin src="/assets/index-D5yrqVJI.js"></script>
+    <script type="module" crossorigin src="/assets/index-Csz9HIsi.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-wfL8844V.js">
-    <link rel="modulepreload" crossorigin href="/assets/prerender-yctxWzUN.js">
-    <link rel="stylesheet" crossorigin href="/assets/prerender-BfABqsYZ.css">
+    <link rel="modulepreload" crossorigin href="/assets/prerender-D4iuuetX.js">
+    <link rel="stylesheet" crossorigin href="/assets/prerender-DWUNzDcT.css">
     <link rel="stylesheet" crossorigin href="/assets/index-B_GAlC5L.css">
   <meta name="description" content="Software Development, Cloud Architecture and 3D Printing Articles">
 <link rel="canonical" href="https://ofiryaron.com/he/post/efs-creation-bash">
@@ -42,7 +42,83 @@
 <link rel="alternate" hrefLang="x-default" href="https://ofiryaron.com/post/efs-creation-bash"></head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"><!--$--><header id="header" class="fixed top-0 left-0 w-full z-50 nav-blur border-b border-line shadow-sm"><div class="w-full px-6 lg:px-12"><nav class="flex justify-between items-center h-14"><div class="flex-shrink-0 flex items-center h-full"><a class="flex items-center pr-8 no-underline border-b-0 outline-none" href="/he"><img src="/images/OfirYaron%202026%20Logo%20Minimal%20-%20Transparent%20Background.png" alt="Ofir Yaron Logo" class="h-10 w-auto"></a></div><div class="hidden lg:flex flex-grow justify-end h-full"></div><div class="hidden lg:flex items-center ml-3"><a class="no-underline border-b-0 px-3 py-1.5 rounded-lg text-xs font-mono uppercase tracking-mono text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard" href="/post/efs-creation-bash">English</a></div><div class="flex items-center lg:hidden"><a class="no-underline border-b-0 px-2 py-1.5 rounded-lg text-xs font-mono uppercase tracking-mono text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard mr-2" href="/post/efs-creation-bash">EN</a><button aria-label="Toggle navigation menu" aria-expanded="false" class="p-2 rounded-lg text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard border-0 bg-transparent cursor-pointer"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars w-5 h-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path></svg></button></div></nav></div><div class="lg:hidden"></div></header><div id="wrapper" class="w-full"><div id="main"></div><section id="sidebar"><section id="intro"><a class="logo" href="/he"><img src="/images/intro_face.jpg" alt=""></a><header><h2>Ofir Yaron</h2><p><a href="mailto:ofir@ofiryaron.com">ofir@ofiryaron.com</a></p></header></section><section class="blurb"><h2>אודות</h2><p>היי, אני אופיר. התשוקה שלי היא למנף טכנולוגיה כדי לייצר אימפקט עסקי משמעותי.
+    <div id="root"><!--$--><header id="header" class="fixed top-0 left-0 w-full z-50 nav-blur border-b border-line shadow-sm"><div class="w-full px-6 lg:px-12"><nav class="flex justify-between items-center h-14"><div class="flex-shrink-0 flex items-center h-full"><a class="flex items-center pr-8 no-underline border-b-0 outline-none" href="/he"><img src="/images/OfirYaron%202026%20Logo%20Minimal%20-%20Transparent%20Background.png" alt="Ofir Yaron Logo" class="h-10 w-auto"></a></div><div class="hidden lg:flex flex-grow justify-end h-full"></div><div class="hidden lg:flex items-center ml-3"><a class="no-underline border-b-0 px-3 py-1.5 rounded-lg text-xs font-mono uppercase tracking-mono text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard" href="/post/efs-creation-bash">English</a></div><div class="flex items-center lg:hidden"><a class="no-underline border-b-0 px-2 py-1.5 rounded-lg text-xs font-mono uppercase tracking-mono text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard mr-2" href="/post/efs-creation-bash">EN</a><button aria-label="Toggle navigation menu" aria-expanded="false" class="p-2 rounded-lg text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard border-0 bg-transparent cursor-pointer"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars w-5 h-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path></svg></button></div></nav></div><div class="lg:hidden"></div></header><div id="wrapper" class="w-full"><div id="main"><article class="post markdown" id="post16/4/2023" dir="ltr"><header><div class="title"><h2 data-testid="heading"><a href="/he/post/efs-creation-bash">Automate EFS Creation with Bash Scripting</a></h2><p>(in about <!-- -->335<!-- --> words)</p><p>posted on <!-- -->16/4/2023<!-- --> By Ofir Yaron</p><div class="post-tags"><a class="post-tag" href="/he/blog?tag=efs">#<!-- -->efs</a><a class="post-tag" href="/he/blog?tag=bash">#<!-- -->bash</a><a class="post-tag" href="/he/blog?tag=aws">#<!-- -->aws</a><a class="post-tag" href="/he/blog?tag=file-system">#<!-- -->file-system</a><a class="post-tag" href="/he/blog?tag=tutorial">#<!-- -->tutorial</a></div></div></header><div class="container"><div class="post-wrapper"><p>Amazon Elastic File System (EFS) is a scalable, highly available, and secure file system designed to provide shared access to data across multiple instances in the cloud. In this tutorial, I&#x27;ll show you how to create a new EFS drive and all its required assets using a bash script so that it can be connected to a predefined EC2 machine.</p>
+<p>Prerequisites:</p>
+<ul>
+<li>AWS CLI installed and configured with proper credentials</li>
+<li>EC2 machine and VPC in place
+<br>
+</li>
+</ul>
+<h3>Step 1: Set Variables</h3>
+<p>First, we&#x27;ll set the variables we need to run the script. Replace <strong>REGION</strong>, <strong>EC2_NAME</strong>, and <strong>EFS_NAME</strong> with your desired values.</p>
+<div class="code"><button class="icon copy-icon"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"></path><path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"></path></svg></button><pre style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;overflow:auto;position:relative;margin:0.5em 0;padding:1.25em 1em"><code class="language-text" style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none"><span>REGION=eu-central-1
+</span>EC2_NAME=MY_MACHINE
+<!-- -->EFS_NAME=my_shared_efs_drive</code></pre></div>
+<br>
+<h3>Step 2: Get EC2 Instance ID</h3>
+<p>Using the AWS CLI, we&#x27;ll get the EC2 instance ID by EC2 instance name:</p>
+<div class="code"><button class="icon copy-icon"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"></path><path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"></path></svg></button><pre style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;overflow:auto;position:relative;margin:0.5em 0;padding:1.25em 1em"><code class="language-text" style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none"><span>EC2ID=$(aws ec2 describe-instances --filters &quot;Name=tag:Name,Values=$EC2_NAME&quot; \
+</span>--query &#x27;Reservations[*].Instances[*].{ID:InstanceId}&#x27; \
+<!-- -->--output text \
+<!-- -->--region $REGION)
+<!-- -->echo EC2 instance ID: $EC2ID</code></pre></div>
+<br>
+<h3>Step 3: Get VPC and Subnet IDs</h3>
+<p>Next, we&#x27;ll get the VPC and subnet IDs for the EC2 instance:</p>
+<div class="code"><button class="icon copy-icon"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"></path><path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"></path></svg></button><pre style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;overflow:auto;position:relative;margin:0.5em 0;padding:1.25em 1em"><code class="language-text" style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none"><span>VPCID=$(aws ec2 describe-instances --instance-ids $EC2ID \
+</span>--query &#x27;Reservations[*].Instances[*].{VPC:VpcId}&#x27; \
+<!-- -->--output text \
+<!-- -->--region $REGION)
+<!-- -->echo VPC ID: $VPCID
+<!-- -->
+<!-- -->SUBNETID=$(aws ec2 describe-instances --instance-ids $EC2ID \
+<!-- -->--query &#x27;Reservations[*].Instances[*].{Subnet:SubnetId}&#x27; \
+<!-- -->--output text \
+<!-- -->--region $REGION)
+<!-- -->echo Subnet ID: $SUBNETID</code></pre></div>
+<br>
+<h3>Step 4: Create Security Groups</h3>
+<p>We&#x27;ll create two security groups - one for the EC2 instance and one for the mount target - and allow ingress traffic for each:</p>
+<div class="code"><button class="icon copy-icon"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"></path><path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"></path></svg></button><pre style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;overflow:auto;position:relative;margin:0.5em 0;padding:1.25em 1em"><code class="language-text" style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none"><span>EC2_SGID=$(aws ec2 create-security-group \
+</span>--region $REGION \
+<!-- -->--group-name efs-ec2-sg \
+<!-- -->--description &quot;Amazon EFS SG for EC2 instance&quot; \
+<!-- -->--vpc-id $VPCID \
+<!-- -->--query &#x27;GroupId&#x27; \
+<!-- -->--output text)
+<!-- -->echo EC2 SG ID: $EC2_SGID
+<!-- -->
+<!-- -->MT_SGID=$(aws ec2 create-security-group \
+<!-- -->--region $REGION \
+<!-- -->--group-name efs-mt-sg \
+<!-- -->--description &quot;Amazon EFS SG for mount target&quot; \
+<!-- -->--vpc-id $VPCID \
+<!-- -->--query &#x27;GroupId&#x27; \
+<!-- -->--output text)
+<!-- -->echo Mount Target SG ID: $MT_SGID
+<!-- -->
+<!-- -->aws ec2 authorize-security-group-ingress \
+<!-- -->--group-id $EC2_SGID \
+<!-- -->--protocol tcp \
+<!-- -->--port 22 \
+<!-- -->--cidr 0.0.0.0/0 \
+<!-- -->--region $REGION
+<!-- -->
+<!-- -->aws ec2 authorize-security-group-ingress \
+<!-- -->--group-id $MT_SGID \
+<!-- -->--protocol tcp \
+<!-- -->--port 2049 \
+<!-- -->--source-group $EC2_SGID \
+<!-- -->--region $REGION</code></pre></div>
+<br>
+<h3>Step 5: Create EFS Drive</h3>
+<p>Now we can create the EFS drive using the following command:</p>
+<div class="code"><button class="icon copy-icon"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"></path><path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"></path></svg></button><pre style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;overflow:auto;position:relative;margin:0.5em 0;padding:1.25em 1em"><code class="language-text" style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none"><span>FSID=$(aws efs create-file-system \
+</span>--encrypted \
+<!-- -->--creation-token $EFS_NAME \
+<!-- -->--tags Key=Name,Value=$EFS_NAME \
+<!-- -->--region</code></pre></div></div></div></article></div><section id="sidebar"><section id="intro"><a class="logo" href="/he"><img src="/images/intro_face.jpg" alt=""></a><header><h2>Ofir Yaron</h2><p><a href="mailto:ofir@ofiryaron.com">ofir@ofiryaron.com</a></p></header></section><section class="blurb"><h2>אודות</h2><p>היי, אני אופיר. התשוקה שלי היא למנף טכנולוגיה כדי לייצר אימפקט עסקי משמעותי.
 
 כ-Cloud Solution Architect ו-Software Engineer, אני משלב בין רקע עשיר בפיתוח תוכנה מתקדמת ובניית ארכיטקטורת ענן מאובטחת וסקלבילית (Scalable), לבין מומחיות ייחודית בעולמות הייצור וה-3D.
 

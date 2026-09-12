@@ -30,10 +30,10 @@
         document.documentElement.dir = isHebrew ? 'rtl' : 'ltr';
       })();
     </script>
-    <script type="module" crossorigin src="/assets/index-D5yrqVJI.js"></script>
+    <script type="module" crossorigin src="/assets/index-Csz9HIsi.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-wfL8844V.js">
-    <link rel="modulepreload" crossorigin href="/assets/prerender-yctxWzUN.js">
-    <link rel="stylesheet" crossorigin href="/assets/prerender-BfABqsYZ.css">
+    <link rel="modulepreload" crossorigin href="/assets/prerender-D4iuuetX.js">
+    <link rel="stylesheet" crossorigin href="/assets/prerender-DWUNzDcT.css">
     <link rel="stylesheet" crossorigin href="/assets/index-B_GAlC5L.css">
   <meta name="description" content="Software Development, Cloud Architecture and 3D Printing Articles">
 <link rel="canonical" href="https://ofiryaron.com/he/post/terraform-modules">
@@ -42,7 +42,63 @@
 <link rel="alternate" hrefLang="x-default" href="https://ofiryaron.com/post/terraform-modules"></head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"><!--$--><header id="header" class="fixed top-0 left-0 w-full z-50 nav-blur border-b border-line shadow-sm"><div class="w-full px-6 lg:px-12"><nav class="flex justify-between items-center h-14"><div class="flex-shrink-0 flex items-center h-full"><a class="flex items-center pr-8 no-underline border-b-0 outline-none" href="/he"><img src="/images/OfirYaron%202026%20Logo%20Minimal%20-%20Transparent%20Background.png" alt="Ofir Yaron Logo" class="h-10 w-auto"></a></div><div class="hidden lg:flex flex-grow justify-end h-full"></div><div class="hidden lg:flex items-center ml-3"><a class="no-underline border-b-0 px-3 py-1.5 rounded-lg text-xs font-mono uppercase tracking-mono text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard" href="/post/terraform-modules">English</a></div><div class="flex items-center lg:hidden"><a class="no-underline border-b-0 px-2 py-1.5 rounded-lg text-xs font-mono uppercase tracking-mono text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard mr-2" href="/post/terraform-modules">EN</a><button aria-label="Toggle navigation menu" aria-expanded="false" class="p-2 rounded-lg text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard border-0 bg-transparent cursor-pointer"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars w-5 h-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path></svg></button></div></nav></div><div class="lg:hidden"></div></header><div id="wrapper" class="w-full"><div id="main"></div><section id="sidebar"><section id="intro"><a class="logo" href="/he"><img src="/images/intro_face.jpg" alt=""></a><header><h2>Ofir Yaron</h2><p><a href="mailto:ofir@ofiryaron.com">ofir@ofiryaron.com</a></p></header></section><section class="blurb"><h2>אודות</h2><p>היי, אני אופיר. התשוקה שלי היא למנף טכנולוגיה כדי לייצר אימפקט עסקי משמעותי.
+    <div id="root"><!--$--><header id="header" class="fixed top-0 left-0 w-full z-50 nav-blur border-b border-line shadow-sm"><div class="w-full px-6 lg:px-12"><nav class="flex justify-between items-center h-14"><div class="flex-shrink-0 flex items-center h-full"><a class="flex items-center pr-8 no-underline border-b-0 outline-none" href="/he"><img src="/images/OfirYaron%202026%20Logo%20Minimal%20-%20Transparent%20Background.png" alt="Ofir Yaron Logo" class="h-10 w-auto"></a></div><div class="hidden lg:flex flex-grow justify-end h-full"></div><div class="hidden lg:flex items-center ml-3"><a class="no-underline border-b-0 px-3 py-1.5 rounded-lg text-xs font-mono uppercase tracking-mono text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard" href="/post/terraform-modules">English</a></div><div class="flex items-center lg:hidden"><a class="no-underline border-b-0 px-2 py-1.5 rounded-lg text-xs font-mono uppercase tracking-mono text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard mr-2" href="/post/terraform-modules">EN</a><button aria-label="Toggle navigation menu" aria-expanded="false" class="p-2 rounded-lg text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard border-0 bg-transparent cursor-pointer"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars w-5 h-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path></svg></button></div></nav></div><div class="lg:hidden"></div></header><div id="wrapper" class="w-full"><div id="main"><article class="post markdown" id="post21/2/2023" dir="ltr"><header><div class="title"><h2 data-testid="heading"><a href="/he/post/terraform-modules">Terraform Modules</a></h2><p>(in about <!-- -->364<!-- --> words)</p><p>posted on <!-- -->21/2/2023<!-- --> By Ofir Yaron</p><div class="post-tags"><a class="post-tag" href="/he/blog?tag=terraform">#<!-- -->terraform</a><a class="post-tag" href="/he/blog?tag=iac">#<!-- -->iac</a><a class="post-tag" href="/he/blog?tag=modules">#<!-- -->modules</a></div></div></header><div class="container"><div class="post-wrapper"><h1>Terraform Modules</h1>
+<p>A Terraform module is a reusable piece of Terraform code that encapsulates a set of related resources and their configuration. Modules can be used to create, modify, and delete resources as a single unit, making it easy to manage complex infrastructure components. Modules can also be shared across different projects, making it easy to reuse code and standardize resource configurations across different environments.<br><br></p>
+<p>A module consists of a directory containing one or more Terraform configuration files. The directory can also contain other files, such as variables, outputs, and scripts. A module can be published to a public or private registry or stored locally.<br><br></p>
+<p>Here is an example of how to create a Terraform module that creates an Amazon Elastic Container Service (ECS) cluster in an AWS infrastructure as code project:</p>
+<div class="code"><button class="icon copy-icon"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"></path><path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"></path></svg></button><pre style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;overflow:auto;position:relative;margin:0.5em 0;padding:1.25em 1em"><code class="language-terraform" style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none"><span>provider &quot;aws&quot; {
+</span>  region = var.region
+<!-- -->}
+<!-- -->
+<!-- -->resource &quot;aws_ecs_cluster&quot; &quot;cluster&quot; {
+<!-- -->  name = var.name
+<!-- -->}
+<!-- -->
+<!-- -->variable &quot;region&quot; {
+<!-- -->  type    = string
+<!-- -->  default = &quot;us-west-2&quot;
+<!-- -->}
+<!-- -->
+<!-- -->variable &quot;name&quot; {
+<!-- -->  type    = string
+<!-- -->  default = &quot;my-cluster&quot;
+<!-- -->}</code></pre></div>
+<p>In the example above, we have created a module that creates an ECS cluster using the AWS provider. We have defined two variables (region and name) that can be customized when the module is used. The module consists of one resource (aws_ecs_cluster) that creates an ECS cluster with the specified name.<br><br></p>
+<p><strong>Using Terraform Modules</strong></p>
+<p>Using a Terraform module in an AWS infrastructure as code project involves the following steps:</p>
+<p>Declare the module: In your main Terraform configuration file, you need to declare the module and provide its source location. You can declare the module using the module block and specify the source location using the source attribute.</p>
+<div class="code"><button class="icon copy-icon"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"></path><path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"></path></svg></button><pre style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;overflow:auto;position:relative;margin:0.5em 0;padding:1.25em 1em"><code class="language-terraform" style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none"><span>provider &quot;aws&quot; {
+</span>  region = &quot;us-west-2&quot;
+<!-- -->}
+<!-- -->
+<!-- -->module &quot;ecs-cluster&quot; {
+<!-- -->  source = &quot;./module/ec2-cluster&quot;
+<!-- -->  name   = &quot;my-cluster&quot;
+<!-- -->}</code></pre></div>
+<p><br><br>
+<strong>Customize the variables</strong></p>
+<p>You can customize the variables defined in the module by specifying their values in the module block.</p>
+<div class="code"><button class="icon copy-icon"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"></path><path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"></path></svg></button><pre style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;overflow:auto;position:relative;margin:0.5em 0;padding:1.25em 1em"><code class="language-terraform" style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none"><span>provider &quot;aws&quot; {
+</span>  region = &quot;us-west-2&quot;
+<!-- -->}
+<!-- -->
+<!-- -->module &quot;ecs-cluster&quot; {
+<!-- -->  source = &quot;./module/ec2-cluster&quot;
+<!-- -->  name   = &quot;my-cluster&quot;
+<!-- -->  region = &quot;us-east-1&quot;
+<!-- -->}</code></pre></div>
+<p><br><br>
+<strong>Use the module resources</strong></p>
+<p>Once the module has been declared and customized, you can use its resources in your main configuration file by referencing them using their output values.</p>
+<div class="code"><button class="icon copy-icon"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"></path><path d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"></path></svg></button><pre style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;overflow:auto;position:relative;margin:0.5em 0;padding:1.25em 1em"><code class="language-terraform" style="text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;color:#90a4ae;background:#fafafa;font-family:Roboto Mono, monospace;font-size:1em;line-height:1.5em;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none"><span>provider &quot;aws&quot; {
+</span>  region = &quot;us-west-2&quot;
+<!-- -->}
+<!-- -->
+<!-- -->module &quot;ecs-cluster&quot; {
+<!-- -->  source = &quot;./module/ec2-cluster&quot;
+<!-- -->  name   = &quot;my-cluster&quot;
+<!-- -->  region = &quot;us-east-
+<!-- -->}</code></pre></div></div></div></article></div><section id="sidebar"><section id="intro"><a class="logo" href="/he"><img src="/images/intro_face.jpg" alt=""></a><header><h2>Ofir Yaron</h2><p><a href="mailto:ofir@ofiryaron.com">ofir@ofiryaron.com</a></p></header></section><section class="blurb"><h2>אודות</h2><p>היי, אני אופיר. התשוקה שלי היא למנף טכנולוגיה כדי לייצר אימפקט עסקי משמעותי.
 
 כ-Cloud Solution Architect ו-Software Engineer, אני משלב בין רקע עשיר בפיתוח תוכנה מתקדמת ובניית ארכיטקטורת ענן מאובטחת וסקלבילית (Scalable), לבין מומחיות ייחודית בעולמות הייצור וה-3D.
 

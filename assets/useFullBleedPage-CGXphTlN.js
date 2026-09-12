@@ -1,1 +1,0 @@
-import{a as e}from"./rolldown-runtime-wfL8844V.js";import{T as t}from"./prerender-yctxWzUN.js";var n=e(t()),r=()=>{(0,n.useEffect)(()=>(document.body.classList.add(`full-bleed-page`),()=>document.body.classList.remove(`full-bleed-page`)),[])};export{r as t};
