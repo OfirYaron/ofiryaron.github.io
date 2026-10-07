@@ -30,10 +30,31 @@
         document.documentElement.dir = isHebrew ? 'rtl' : 'ltr';
       })();
     </script>
-    <script type="module" crossorigin src="/assets/index-CMVBInNx.js"></script>
+    <script data-theme-boot>
+      // Apply a dark theme before first paint, so prerendered pages never flash
+      // light first (OYS-426). Light is the absence of data-theme, so light
+      // visitors get an untouched DOM. STORAGE_KEY and FOLLOW_SYSTEM mirror
+      // src/utils/theme.js — a test fails if they drift. FOLLOW_SYSTEM stays
+      // false until the dark theme and its toggle ship (OYS-428).
+      (function () {
+        var STORAGE_KEY = 'theme';
+        var FOLLOW_SYSTEM = false;
+        var stored = null;
+        try {
+          stored = window.localStorage.getItem(STORAGE_KEY);
+        } catch (e) {
+          // Storage blocked (private mode, site data off): use the default.
+        }
+        var dark = stored === 'dark' || (stored !== 'light' && FOLLOW_SYSTEM
+          && typeof window.matchMedia === 'function'
+          && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-DpWa6W0R.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-wfL8844V.js">
-    <link rel="modulepreload" crossorigin href="/assets/prerender-C01oAazD.js">
-    <link rel="stylesheet" crossorigin href="/assets/prerender-JnXL85u1.css">
+    <link rel="modulepreload" crossorigin href="/assets/prerender-NpdVL7pJ.js">
+    <link rel="stylesheet" crossorigin href="/assets/prerender-BMeOeK9V.css">
     <link rel="stylesheet" crossorigin href="/assets/index-B_GAlC5L.css">
   <meta name="description" content="AI architecture, sovereign infrastructure, and custom hardware from one practice. RAG pipelines, LLM cost control, self-hosted stacks, and bespoke IoT builds.">
 <meta property="og:type" content="website">
