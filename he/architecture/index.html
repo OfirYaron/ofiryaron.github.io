@@ -33,12 +33,12 @@
     <script data-theme-boot>
       // Apply a dark theme before first paint, so prerendered pages never flash
       // light first (OYS-426). Light is the absence of data-theme, so light
-      // visitors get an untouched DOM. STORAGE_KEY, FOLLOW_SYSTEM and the
-      // theme-color value mirror src/utils/theme.js — a test fails if they drift. FOLLOW_SYSTEM stays
-      // false until the dark theme and its toggle ship (OYS-428).
+      // visitors get an untouched DOM. With no stored choice the OS setting
+      // decides (FOLLOW_SYSTEM, on since OYS-428). STORAGE_KEY, FOLLOW_SYSTEM and
+      // the theme-color value mirror src/utils/theme.js — a test fails if they drift.
       (function () {
         var STORAGE_KEY = 'theme';
-        var FOLLOW_SYSTEM = false;
+        var FOLLOW_SYSTEM = true;
         var stored = null;
         try {
           stored = window.localStorage.getItem(STORAGE_KEY);
@@ -56,10 +56,10 @@
         }
       })();
     </script>
-    <script type="module" crossorigin src="/assets/index-BOSx3tob.js"></script>
+    <script type="module" crossorigin src="/assets/index-CicOIhd9.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-wfL8844V.js">
-    <link rel="modulepreload" crossorigin href="/assets/prerender-GMxUoovE.js">
-    <link rel="stylesheet" crossorigin href="/assets/prerender-CN8dxPAT.css">
+    <link rel="modulepreload" crossorigin href="/assets/prerender-DPzPgq8E.js">
+    <link rel="stylesheet" crossorigin href="/assets/prerender-CuHoLECs.css">
     <link rel="stylesheet" crossorigin href="/assets/index-B_GAlC5L.css">
   </head>
   <body>

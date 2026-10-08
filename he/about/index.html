@@ -33,12 +33,12 @@
     <script data-theme-boot>
       // Apply a dark theme before first paint, so prerendered pages never flash
       // light first (OYS-426). Light is the absence of data-theme, so light
-      // visitors get an untouched DOM. STORAGE_KEY, FOLLOW_SYSTEM and the
-      // theme-color value mirror src/utils/theme.js — a test fails if they drift. FOLLOW_SYSTEM stays
-      // false until the dark theme and its toggle ship (OYS-428).
+      // visitors get an untouched DOM. With no stored choice the OS setting
+      // decides (FOLLOW_SYSTEM, on since OYS-428). STORAGE_KEY, FOLLOW_SYSTEM and
+      // the theme-color value mirror src/utils/theme.js — a test fails if they drift.
       (function () {
         var STORAGE_KEY = 'theme';
-        var FOLLOW_SYSTEM = false;
+        var FOLLOW_SYSTEM = true;
         var stored = null;
         try {
           stored = window.localStorage.getItem(STORAGE_KEY);
@@ -56,10 +56,10 @@
         }
       })();
     </script>
-    <script type="module" crossorigin src="/assets/index-BOSx3tob.js"></script>
+    <script type="module" crossorigin src="/assets/index-CicOIhd9.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-wfL8844V.js">
-    <link rel="modulepreload" crossorigin href="/assets/prerender-GMxUoovE.js">
-    <link rel="stylesheet" crossorigin href="/assets/prerender-CN8dxPAT.css">
+    <link rel="modulepreload" crossorigin href="/assets/prerender-DPzPgq8E.js">
+    <link rel="stylesheet" crossorigin href="/assets/prerender-CuHoLECs.css">
     <link rel="stylesheet" crossorigin href="/assets/index-B_GAlC5L.css">
   <meta name="description" content="Learn about Ofir Yaron">
 <link rel="canonical" href="https://ofiryaron.com/he/about">
@@ -68,7 +68,7 @@
 <link rel="alternate" hrefLang="x-default" href="https://ofiryaron.com/about"></head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"><!--$--><header id="header" class="fixed top-0 left-0 w-full z-50 nav-blur border-b border-line shadow-sm"><div class="w-full px-6 lg:px-12"><nav class="flex justify-between items-center h-14"><div class="flex-shrink-0 flex items-center h-full"><a class="flex items-center pr-8 no-underline border-b-0 outline-none" href="/he"><img src="/images/OfirYaron%202026%20Logo%20Minimal%20-%20Transparent%20Background.png" alt="Ofir Yaron Logo" class="h-10 w-auto dark:hidden"><img src="/images/OfirYaron%202026%20Logo%20Minimal%20-%20Dark%20Theme.png" alt="Ofir Yaron Logo" class="hidden h-10 w-auto dark:block"></a></div><div class="hidden lg:flex flex-grow justify-end h-full"></div><div class="hidden lg:flex items-center ml-3"><a class="no-underline border-b-0 px-3 py-1.5 rounded-lg text-xs font-mono uppercase tracking-mono text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard" href="/about">English</a></div><div class="flex items-center lg:hidden"><a class="no-underline border-b-0 px-2 py-1.5 rounded-lg text-xs font-mono uppercase tracking-mono text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard mr-2" href="/about">EN</a><button aria-label="Toggle navigation menu" aria-expanded="false" class="p-2 rounded-lg text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard border-0 bg-transparent cursor-pointer"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars w-5 h-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path></svg></button></div></nav></div><div class="lg:hidden"></div></header><div id="wrapper" class="w-full"><div id="main"><article class="post markdown" id="about" dir="ltr"><header><div class="title"><h2 data-testid="heading"><a href="/about">About Me</a></h2><p>(in about <!-- -->784<!-- --> words)</p></div></header><h1><strong>OFIR YARON</strong></h1>
+    <div id="root"><!--$--><header id="header" class="fixed top-0 left-0 w-full z-50 nav-blur border-b border-line shadow-sm"><div class="w-full px-6 lg:px-12"><nav class="flex justify-between items-center h-14"><div class="flex-shrink-0 flex items-center h-full"><a class="flex items-center pr-8 no-underline border-b-0 outline-none" href="/he"><img src="/images/OfirYaron%202026%20Logo%20Minimal%20-%20Transparent%20Background.png" alt="Ofir Yaron Logo" class="h-10 w-auto dark:hidden"><img src="/images/OfirYaron%202026%20Logo%20Minimal%20-%20Dark%20Theme.png" alt="Ofir Yaron Logo" class="hidden h-10 w-auto dark:block"></a></div><div class="hidden lg:flex flex-grow justify-end h-full"></div><div class="hidden lg:flex items-center ml-3"><a class="no-underline border-b-0 px-3 py-1.5 rounded-lg text-xs font-mono uppercase tracking-mono text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard" href="/about">English</a><button type="button" class="theme-toggle ms-1" aria-pressed="false" aria-label="מצב כהה" title="מצב כהה"><span class="material-symbols-outlined dark:hidden" aria-hidden="true">dark_mode</span><span class="material-symbols-outlined hidden dark:inline" aria-hidden="true">light_mode</span></button></div><div class="flex items-center lg:hidden"><a class="no-underline border-b-0 px-2 py-1.5 rounded-lg text-xs font-mono uppercase tracking-mono text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard mr-2" href="/about">EN</a><button type="button" class="theme-toggle me-2" aria-pressed="false" aria-label="מצב כהה" title="מצב כהה"><span class="material-symbols-outlined dark:hidden" aria-hidden="true">dark_mode</span><span class="material-symbols-outlined hidden dark:inline" aria-hidden="true">light_mode</span></button><button aria-label="Toggle navigation menu" aria-expanded="false" class="p-2 rounded-lg text-ink-muted hover:text-ink hover:bg-surface transition-colors duration-fast ease-standard border-0 bg-transparent cursor-pointer"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars w-5 h-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path></svg></button></div></nav></div><div class="lg:hidden"></div></header><div id="wrapper" class="w-full"><div id="main"><article class="post markdown" id="about" dir="ltr"><header><div class="title"><h2 data-testid="heading"><a href="/about">About Me</a></h2><p>(in about <!-- -->784<!-- --> words)</p></div></header><h1><strong>OFIR YARON</strong></h1>
 <p><strong>Cloud Solution Architect | Former CTO | AI Workflow Orchestrator</strong>
 <a node="[object Object]" href="mailto:ofir@ofiryaron.com">ofir@ofiryaron.com</a> | <a node="[object Object]" href="https://github.com/OfirYaron">GitHub</a> | <a node="[object Object]" href="https://www.linkedin.com/in/ofiryaron">LinkedIn</a></p>
 <h1><strong>Professional Summary</strong></h1>
