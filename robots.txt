@@ -1,4 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
-# TDB: Investigate additional requirements for this file (Use ChatGPT)
 User-agent: *
-Disallow:
+# Raw Markdown drafts copied verbatim from public/data — not pages (OYS-401).
+Disallow: /data/
+
+# Generated at build time by scripts/seo/sitemap.mjs.
+Sitemap: https://ofiryaron.com/sitemap.xml
