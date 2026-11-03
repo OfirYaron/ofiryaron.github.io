@@ -1,7 +1,10 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-# Raw Markdown drafts copied verbatim from public/data — not pages (OYS-401).
-Disallow: /data/
+# No Disallow: /data/ any more. The raw Markdown drafts it hid moved out of
+# public/ into drafts/blog/ (OYS-526), so /data/* now answers 404. Leaving it
+# crawlable lets search engines see that 404 and drop the old URLs; a Disallow
+# would keep them listed as "Indexed, though blocked by robots.txt".
+Allow: /
 
 # Generated at build time by scripts/seo/sitemap.mjs.
 Sitemap: https://ofiryaron.com/sitemap.xml
