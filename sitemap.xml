@@ -20,9 +20,6 @@
   </url>
   <url>
     <loc>https://ofiryaron.com/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ofiryaron.com/about/"/>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ofiryaron.com/he/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ofiryaron.com/about/"/>
   </url>
   <url>
     <loc>https://ofiryaron.com/architecture/</loc>
@@ -58,12 +55,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ofiryaron.com/3dprinting/custom-pop-doll/"/>
   </url>
   <url>
-    <loc>https://ofiryaron.com/he/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ofiryaron.com/about/"/>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ofiryaron.com/he/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ofiryaron.com/about/"/>
-  </url>
-  <url>
     <loc>https://ofiryaron.com/he/blog/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://ofiryaron.com/blog/"/>
     <xhtml:link rel="alternate" hreflang="he" href="https://ofiryaron.com/he/blog/"/>
@@ -92,12 +83,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ofiryaron.com/printables/"/>
     <xhtml:link rel="alternate" hreflang="he" href="https://ofiryaron.com/he/printables/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ofiryaron.com/printables/"/>
-  </url>
-  <url>
-    <loc>https://ofiryaron.com/he/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ofiryaron.com/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ofiryaron.com/he/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ofiryaron.com/privacy/"/>
   </url>
   <url>
     <loc>https://ofiryaron.com/he/product/1/</loc>
@@ -172,12 +157,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ofiryaron.com/shop/"/>
   </url>
   <url>
-    <loc>https://ofiryaron.com/he/terms/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ofiryaron.com/terms/"/>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ofiryaron.com/he/terms/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ofiryaron.com/terms/"/>
-  </url>
-  <url>
     <loc>https://ofiryaron.com/he/tools/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://ofiryaron.com/tools/"/>
     <xhtml:link rel="alternate" hreflang="he" href="https://ofiryaron.com/he/tools/"/>
@@ -247,9 +226,6 @@
   </url>
   <url>
     <loc>https://ofiryaron.com/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ofiryaron.com/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ofiryaron.com/he/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ofiryaron.com/privacy/"/>
   </url>
   <url>
     <loc>https://ofiryaron.com/product/1/</loc>
@@ -325,9 +301,6 @@
   </url>
   <url>
     <loc>https://ofiryaron.com/terms/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ofiryaron.com/terms/"/>
-    <xhtml:link rel="alternate" hreflang="he" href="https://ofiryaron.com/he/terms/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ofiryaron.com/terms/"/>
   </url>
   <url>
     <loc>https://ofiryaron.com/tools/</loc>
